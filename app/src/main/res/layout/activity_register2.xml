@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/__hu0qqdionskpx4qliyn_4w"
+    tools:context=".Register2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracker Covid-19"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="364dp"
+        android:layout_height="26dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="FULL NAME"
+
+        android:inputType="textCapCharacters"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmail"
+        android:layout_width="362dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="362dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPhone"
+        android:layout_width="361dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="text|phone"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <EditText
+        android:id="@+id/editTextTextUsername"
+        android:layout_width="360dp"
+        android:layout_height="26dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="USERNAME"
+        android:inputType="text|textPersonName"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/editTextTexTBirth"
+        android:layout_width="155dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="DATE OF BIRTH"
+        android:inputType="date"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextTextGender"
+        android:layout_width="152dp"
+        android:layout_height="28dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="GENDER"
+        android:inputType="textNoSuggestions"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextTextAddress1"
+        android:layout_width="364dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="ADDRESS LINE 1"
+        android:inputType="textCapCharacters"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/editTextTextAddress2"
+        android:layout_width="362dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="ADDRESS LINE 2"
+        android:inputType="textCapCharacters"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <EditText
+        android:id="@+id/editTextTextTown"
+        android:layout_width="361dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="TOWN"
+        android:inputType="textCapCharacters"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPostcode"
+        android:layout_width="361dp"
+        android:layout_height="26dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="POSTCODE"
+        android:inputType="number"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <EditText
+        android:id="@+id/editTextTextState"
+        android:layout_width="360dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="STATE"
+        android:inputType="textCapCharacters"
+        android:padding="0.5dp"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="203dp"
+        android:layout_height="54dp"
+        android:text="REGISTER"
+        app:backgroundTint="@color/teal_700"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALREADY REGISTER?"
+        android:textColor="@android:color/holo_orange_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
